@@ -2,7 +2,7 @@
 1. Install Docker
 2. Clone
 3. `docker-compose up --build -d`
-4. To create superuser: `docker-compose exec django python3 /app/src/manage.py createsupperuser`
+4. To create superuser: `docker-compose exec django python3 /app/src/manage.py createsuperuser`
 5. http://localhost:8080/admin to access admin panel 
 
 # API methods:
